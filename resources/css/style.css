@@ -89,8 +89,10 @@ header {
 
 .navigation{
   background-color: firebrick;
-  color: black;
-  display: inline-flex;
+}
+
+.navigation ul {
+  display: flex;
   justify-content: space-between;
 }
 
