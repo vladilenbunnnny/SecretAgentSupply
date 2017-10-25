@@ -288,6 +288,16 @@ width: 18rem;
 
 /*
 ##
+----Media Header
+##
+*/
+
+  .container {
+    width: 100%;
+  }
+
+/*
+##
 ----Media Main Image
 ##
 */
@@ -296,6 +306,7 @@ width: 18rem;
 
   .main-image {
     height: 15rem;
+    width: 100%;
   }
 
   .headline {
