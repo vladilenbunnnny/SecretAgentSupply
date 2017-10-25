@@ -293,7 +293,7 @@ width: 18rem;
 */
 
   .container {
-    max-width: 1500px;
+    max-width: 100%;
 
   }
 
@@ -314,7 +314,6 @@ width: 18rem;
     padding: 1rem 2rem;
     font-size: 1rem;
     position: absolute;
-    width: 95%;
   }
 
   .headline h4 {
