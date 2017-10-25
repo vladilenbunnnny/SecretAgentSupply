@@ -285,7 +285,7 @@ width: 18rem;
          Media Queries (Phone 470px)
 ##########
 */
-
+@media only screen and (max-width: 700px) {
 /*
 ##
 ----Media Universal
@@ -303,7 +303,7 @@ width: 18rem;
 ##
 */
 
-@media only screen and (max-width: 700px) {
+
 
   .main-image {
     height: 15rem;
