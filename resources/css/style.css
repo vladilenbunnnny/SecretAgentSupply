@@ -288,12 +288,13 @@ width: 18rem;
 
 /*
 ##
-----Media Header
+----Media Universal
 ##
 */
 
   .container {
-    width: 100%;
+    max-width: 1500px;
+    
   }
 
 /*
@@ -306,7 +307,6 @@ width: 18rem;
 
   .main-image {
     height: 15rem;
-    width: 100%;
   }
 
   .headline {
