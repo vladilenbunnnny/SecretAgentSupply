@@ -200,7 +200,7 @@ footer .container {
 
   /*
   ##
-  Media Header
+----Media Header
   ##
   */
 
@@ -218,7 +218,7 @@ footer .container {
 
 /*
 ##
-Media Main Image Part
+----Media Main Image Part
 ##
 */
 .main-image {
@@ -237,7 +237,7 @@ width: 18rem;
 
   /*
   ##
-  Media Nav Bar
+----Media Nav Bar
   ##
   */
 
@@ -254,7 +254,7 @@ width: 18rem;
 
   /*
   ##
-  Media Items Images
+----Media Items Images
   ##
   */
 
@@ -268,7 +268,7 @@ width: 18rem;
 
   /*
   ##
-  Media Info
+----Media Info
   ##
   */
 
@@ -276,5 +276,86 @@ width: 18rem;
     width: 35%;
   }
 
+
+}
+
+
+/*
+##########
+         Media Queries (Phone 470px)
+##########
+*/
+
+/*
+##
+----Media Main Image
+##
+*/
+
+@media only screen and (max-width: 470px) {
+
+  .main-image {
+    height: 15rem;
+  }
+
+  .headline {
+    top: 10rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    position: absolute;
+    width: 100%;
+  }
+
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+
+/*
+##
+----Media Main Part
+##
+*/
+  .watch {
+    display: none;
+  }
+
+  .item {
+    width: 90%;
+  }
+
+  .items {
+    justify-content: center;
+  }
+
+/*
+##
+----Media Main Part
+##
+*/
+
+ .infos {
+   flex-direction: column;
+   align-items: center;
+    }
+
+    .info {
+      width: 90%;
+    }
+
+    .location {
+      margin-bottom: 1rem;
+    }
+
+
+
+/*
+##
+----Media Footer
+##
+*/
+
+  footer .container {
+    text-align: center;
+  }
 
 }
